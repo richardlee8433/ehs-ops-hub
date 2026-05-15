@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import getClient, { MODEL } from "@/lib/openai";
 import type { TriageRequest, TriageResponse } from "@/types/index";
 
-const SYSTEM_PROMPT = `You are an EHS (Environmental Health and Safety) incident triage system for a corporate operations team.
+const SYSTEM_PROMPT = `You are an ESG (Environmental, Social, and Governance) incident triage system for a corporate operations team.
 
 Classify each incident and return ONLY valid JSON with this exact schema:
 {
@@ -23,7 +23,7 @@ P3 — Near-miss with no injury, minor non-compliance, or safety concern requiri
 P4 — Administrative, training gap, process improvement, or low-risk observation. SLA: 120–168 hours.
 
 OWNER ROLES (pick the most responsible party):
-EHS Manager | Site Lead | HR | Facilities | Safety Officer
+ESG Manager | Site Lead | HR | Facilities | Safety Officer
 
 Return ONLY the JSON object. No markdown, no explanation outside the JSON.`;
 

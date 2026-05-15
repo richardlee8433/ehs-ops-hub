@@ -9,8 +9,8 @@ const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "EHS Ops Intelligence Hub",
-  description: "AI-powered EHS operations dashboard",
+  title: "ESG Governance Hub",
+  description: "AI-powered ESG governance dashboard",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

@@ -28,8 +28,8 @@ function computeMetrics(req: BriefingRequest): BriefingMetrics {
 }
 
 function buildSystemPrompt(tone: BriefingRequest["tone"]): string {
-  const base = `You are an EHS operations analyst preparing a briefing for ${
-    tone === "executive" ? "senior leadership" : "the EHS operations team"
+  const base = `You are an ESG operations analyst preparing a briefing for ${
+    tone === "executive" ? "senior leadership" : "the ESG operations team"
   }.
 
 Write a structured SIR briefing with these sections:

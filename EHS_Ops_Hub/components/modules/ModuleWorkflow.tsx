@@ -216,7 +216,7 @@ export default function ModuleWorkflow() {
           <div className="row gap-2" style={{ marginTop: 10, alignItems: "center" }}>
             <StreamingDots/>
             <span className="mono" style={{ fontSize: 11, color: "var(--text-2)" }}>
-              Composing steps · referencing EHS knowledge base · {genProgress}%
+              Composing steps · referencing ESG knowledge base · {genProgress}%
             </span>
             <div style={{ flex: 1, height: 3, background: "var(--panel-3)", borderRadius: 999, overflow: "hidden" }}>
               <div style={{ width: `${genProgress}%`, height: "100%", background: "linear-gradient(90deg, var(--teal-2), var(--blue-2))", transition: "width .2s" }}/>

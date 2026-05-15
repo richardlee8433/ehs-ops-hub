@@ -141,7 +141,7 @@ function Brand() {
       </div>
       <div className="col" style={{ lineHeight: 1.1 }}>
         <span style={{ fontSize: 13.5, fontWeight: 600, color: "var(--text-0)", letterSpacing: "-0.01em" }}>
-          EHS Ops Intelligence
+          ESG Governance
         </span>
         <span className="mono" style={{ fontSize: 10, color: "var(--text-3)", letterSpacing: "0.08em", textTransform: "uppercase" }}>
           Hub · v4.2.1

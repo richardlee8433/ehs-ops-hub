@@ -15,7 +15,7 @@ export type IncidentType =
   | "Other";
 
 export type IncidentOwner =
-  | "EHS Manager"
+  | "ESG Manager"
   | "Site Lead"
   | "HR"
   | "Facilities"

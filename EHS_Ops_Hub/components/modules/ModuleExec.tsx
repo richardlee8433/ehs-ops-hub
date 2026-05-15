@@ -80,14 +80,14 @@ export default function ModuleExec() {
   };
 
   const copyMd = () => {
-    const md = `# EHS Weekly Briefing — ${range.from} to ${range.to}\n\n${briefingText}`;
+    const md = `# ESG Weekly Briefing — ${range.from} to ${range.to}\n\n${briefingText}`;
     navigator.clipboard?.writeText(md);
     setCopied(true);
     setTimeout(() => setCopied(false), 1800);
   };
 
   const exportMd = () => {
-    const md = `# EHS Weekly Briefing — ${range.from} to ${range.to}\n\n${briefingText}`;
+    const md = `# ESG Weekly Briefing — ${range.from} to ${range.to}\n\n${briefingText}`;
     const blob = new Blob([md], { type: "text/markdown" });
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
@@ -176,7 +176,7 @@ export default function ModuleExec() {
                 {state === "streaming" && <StreamingDots/>}
               </div>
               <span style={{ fontSize: 18, fontWeight: 600, color: "var(--text-0)", marginTop: 4 }}>
-                EHS Weekly Briefing
+                ESG Weekly Briefing
                 <span className="mono" style={{ fontSize: 12, color: "var(--text-3)", fontWeight: 500, marginLeft: 8 }}>
                   {range.from} → {range.to}
                 </span>

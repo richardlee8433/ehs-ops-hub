@@ -12,7 +12,7 @@ interface ChatMessage {
 
 const INITIAL_MESSAGE: ChatMessage = {
   role: "ai",
-  text: "Hi — I'm the EHS Knowledge Base assistant. I can answer questions using real EHS regulatory documents from OSHA, HSE, EU-OSHA, ISO, and more. Try something like \"What is the protocol for a chemical spill response?\"",
+  text: "Hi — I'm the ESG Knowledge Base assistant. I can answer questions using real ESG regulatory documents from OSHA, HSE, EU-OSHA, ISO, and more. Try something like \"What is the protocol for a chemical spill response?\"",
   citations: [],
 };
 
@@ -134,7 +134,7 @@ export default function ModuleKB() {
           <div className="col gap-1">
             <span className="row gap-2">
               <span style={{ fontSize: 14, fontWeight: 600, color: "var(--text-0)" }}>Ask the KB</span>
-              <span className="ai-chip"><I.Sparkle size={11}/> grounded · real EHS docs</span>
+              <span className="ai-chip"><I.Sparkle size={11}/> grounded · real ESG docs</span>
             </span>
             <span style={{ fontSize: 11.5, color: "var(--text-3)" }}>
               Reading: <span className="mono">{sel.id}</span> · {sel.title}
